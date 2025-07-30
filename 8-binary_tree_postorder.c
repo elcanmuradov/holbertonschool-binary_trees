@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 /**
- *
+ * binary_tree_postorder - funct
+ * @tree: arg1
+ * @func: arg2
+ * Return: 0 or 1
 */
 
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
