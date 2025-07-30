@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * binary_tree_inorder - func
- * @tree - arg1
- * @func - arg2
+ * @tree: arg1
+ * @func: arg2
  * Return: 1 or 0
 */
 
