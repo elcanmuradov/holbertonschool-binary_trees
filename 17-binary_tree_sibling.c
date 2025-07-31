@@ -17,6 +17,5 @@ return (NULL);
 if (node->parent->left != NULL && node->parent->left != node)
 return (node);
 
-if (node->parent->right != NULL && node->parent->right != node)
 return (node->parent->right);
 }
