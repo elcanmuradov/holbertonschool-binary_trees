@@ -14,5 +14,5 @@ return (0);
 if (tree->left == NULL && tree->right == NULL)
 return (1);
 
-return (binary_tree_nodes(tree->left) + binary_tree_node(tree->right));
+return (binary_tree_nodes(tree->left) + binary_tree_nodes(tree->right));
 }
